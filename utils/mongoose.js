@@ -6,7 +6,7 @@ module.exports = {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         };
-        mongoose.connect('mongodb+srv://qihenry301:asterick301@test.oxsfq.mongodb.net/<dbname>?retryWrites=true&w=majority', dbOptions);
+        mongoose.connect("blank", dbOptions);
         mongoose.set('useFindAndModify', false);
 
         mongoose.connection.on('connected', () => {
